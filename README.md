@@ -327,11 +327,8 @@ Move the joystick into any direction. Try to collect blinking point (apple) and 
 
  ## https://www.youtube.com/channel/UCUKGpRmZLFh_AmThMi59b7w
  
-# Snake Pictures![IMG_8949](https://user-images.githubusercontent.com/72698237/128375020-615409d0-ef4f-4ee4-a9f0-65fd1edc4947.JPG)
-
-![IMG_8948](https://user-images.githubusercontent.com/72698237/128374993-de001742-5644-4fe0-ad0a-cdfb85e244e4.JPG)
-![Uploading IMG_8947.JPG…]()![IMG_8950](https://user-images.githubusercontent.com/72698237/128375047-e0a48d7c-5be8-44c6-b8e2-343f6127a284.JPG)
-![IMG_8951](https://user-images.githubusercontent.com/72698237/128375065-6fd96ed7-c541-420a-87e8-33be77a06dc6.JPG)
-
-
-  
+# Snake Pictures
+<img src="https://user-images.githubusercontent.com/72698237/128375020-615409d0-ef4f-4ee4-a9f0-65fd1edc4947.JPG" width="600">
+<img src="https://user-images.githubusercontent.com/72698237/128374993-de001742-5644-4fe0-ad0a-cdfb85e244e4.JPG" width="600">
+<img src="https://user-images.githubusercontent.com/72698237/128375047-e0a48d7c-5be8-44c6-b8e2-343f6127a284.JPG" width="600">1
+<img src="https://user-images.githubusercontent.com/72698237/128375065-6fd96ed7-c541-420a-87e8-33be77a06dc6.JPG" width="600">
