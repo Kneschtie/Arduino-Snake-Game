@@ -173,7 +173,7 @@ void loop() {
 
 }}
 void apfeltocollect(){
-  if (needapple == true){ //neuerapfelgenerieren
+  if (needapple == true){ //generate new apple
     needapple = false;
     ay = random(0 , 7);
     ax = random(0 , 7);
@@ -183,7 +183,7 @@ void apfeltocollect(){
     }
     apfelPosition[ax][ay] = 1;
   }
-  if (ax == row && ay == col && needapple == false){ // apfel aufsammeln
+  if (ax == row && ay == col && needapple == false){ // collect apple
     needapple = true;
     for(int x = 0; x <8 ; x ++){    
   	    for(int y = 0 ; y <8 ; y++){
@@ -248,7 +248,7 @@ void weiterfahren(){
     dead = true;
 
   }
-  else if(matrix [row][col] > 0 && matrix [row][col] != maxlength ) //wenn er in die eigene schlange gefahren ist //(problem mit entfernen dem letzten punkt) --> wahrscheinlich behoben
+  else if(matrix [row][col] > 0 && matrix [row][col] != maxlength ) //if touches snake //(
    {
     Serial.println("DED because of snake");
     neustart = true;
@@ -256,7 +256,7 @@ void weiterfahren(){
     
   }
   else{
-      for(int x = 0; x <8 ; x ++){    //letzten schlangen teil entfernen
+      for(int x = 0; x <8 ; x ++){    //remove last part of snake
   	    for(int y = 0 ; y <8 ; y++){
           if (matrix[x][y] == maxlength){
             matrix[x][y] = 0;
@@ -266,7 +266,7 @@ void weiterfahren(){
 
       }
 
-     // alle zahlen nach hinten verschieben
+     // move numbers back
      for(int l = maxlength - 1; l > 0 ; l --){
        for(int x = 0; x <8 ; x ++){    
   	    for(int y = 0 ; y <8 ; y++){
@@ -277,7 +277,7 @@ void weiterfahren(){
         }
       
      }
-     //neuen punkt setzen
+     //set new point
      matrix [row][col] = 1;
      lc.setLed(0,row,col,true);
 
@@ -318,5 +318,20 @@ void richtung(){
 
 ```
 
-  
+
+# How to play
+
+Move the joystick into any direction. Try to collect blinking point (apple) and you get bigger. Do not touch yourself or the border of the Led matrix, otherwise you die. If you died you can restart by pressing the Joystick button.
+
+# Please Subscribe to my Youtube Channel
+
+ ## https://www.youtube.com/channel/UCUKGpRmZLFh_AmThMi59b7w
+ 
+# Snake Pictures![IMG_8949](https://user-images.githubusercontent.com/72698237/128375020-615409d0-ef4f-4ee4-a9f0-65fd1edc4947.JPG)
+
+![IMG_8948](https://user-images.githubusercontent.com/72698237/128374993-de001742-5644-4fe0-ad0a-cdfb85e244e4.JPG)
+![Uploading IMG_8947.JPG…]()![IMG_8950](https://user-images.githubusercontent.com/72698237/128375047-e0a48d7c-5be8-44c6-b8e2-343f6127a284.JPG)
+![IMG_8951](https://user-images.githubusercontent.com/72698237/128375065-6fd96ed7-c541-420a-87e8-33be77a06dc6.JPG)
+
+
   
