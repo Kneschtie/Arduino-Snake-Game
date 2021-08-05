@@ -3,10 +3,13 @@ Playing snake on a arduino
 
 # What you need:
 
-_-Arduino Uno
-_-Joystick
-_-8x8 MAX7219 DotMatrix-Module
-_-Breadbord (optional)
+-Arduino Uno
+
+-Joystick
+
+-8x8 MAX7219 DotMatrix-Module
+
+-Breadbord (optional)
 
 # How to connect:
 
